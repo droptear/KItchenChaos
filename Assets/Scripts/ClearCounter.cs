@@ -6,6 +6,6 @@ public class ClearCounter : MonoBehaviour
 {
     public void Interact()
     {
-        Debug.Log($"Interaciton with {this.transform.name}.");
+        Debug.LogError($"Interaciton with {this.transform.name}.");
     }
 }

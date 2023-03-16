@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public event EventHandler OnSelectedCounterChanged;
+    public static Player Instance { get; private set; }
+
+    public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs : EventArgs
     {
         public ClearCounter selectedCounter;
@@ -29,7 +31,17 @@ public class Player : MonoBehaviour
     private bool _canMove;
     private bool _isWalking;
 
-    private ClearCounter selectedCounter;
+    private ClearCounter _selectedCounter;
+
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Debug.LogError("There is more than one Player instance.");
+        }
+
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -38,9 +50,9 @@ public class Player : MonoBehaviour
 
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
-        if (selectedCounter != null)
+        if (_selectedCounter != null)
         {
-            selectedCounter.Interact();
+            _selectedCounter.Interact();
         }
     }
 
@@ -122,21 +134,22 @@ public class Player : MonoBehaviour
                             maxDistance: _interactDistance,
                             layerMask: _countersLayerMask))
         {
-           if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
-           {
-                if (clearCounter != selectedCounter)
+            if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
+            {
+                if (clearCounter != _selectedCounter)
                 {
-                    selectedCounter = clearCounter;
-                } else
-                {
-                    selectedCounter = null;
+                    SetSelectedCounter(counterToSelect: clearCounter);
                 }
-           } else
-           {
-                selectedCounter = null;
-           }
+            }
+            else
+            {
+                SetSelectedCounter(counterToSelect: null);
+            }
         }
-        Debug.Log(selectedCounter);
+        else
+        {
+            SetSelectedCounter(counterToSelect: null);
+        }
     }
 
     public bool CheckDirection(Vector3 direction)
@@ -152,5 +165,14 @@ public class Player : MonoBehaviour
     public bool IsWalking()
     {
         return _isWalking;
+    }
+
+    private void SetSelectedCounter(ClearCounter counterToSelect)
+    {
+        _selectedCounter = counterToSelect;
+
+        OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs
+            { selectedCounter = counterToSelect }
+        );
     }
 }
