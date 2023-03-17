@@ -53,6 +53,8 @@
      <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
+     <Compile Include="Assets\Scripts\KItchenObjectSO.cs" />
+     <Compile Include="Assets\Scripts\KitchenObject.cs" />
      <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
