@@ -1,17 +1,20 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/IKitchenObjectParent.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player.cs" />
+      <File FileName="Assets/Scripts/PlayerAnimator.cs" />
+      <File FileName="Assets/Scripts/GameInput.cs" />
+      <File FileName="Assets/Scripts/ClearCounter.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/SelectedCounterVisual.cs" />
+      <File FileName="Assets/Scripts/KItchenObjectSO.cs" />
+      <File FileName="Assets/Scripts/KitchenObject.cs" />
+      <File FileName="Assets/Scripts/IKitchenObjectParent.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ClearCounter.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="152" Column="10" />
-      <File FileName="Assets/Scripts/PlayerAnimator.cs" />
-      <File FileName="Assets/Scripts/GameInput.cs" />
-      <File FileName="Assets/Scripts/ClearCounter.cs" Line="9" Column="9" />
-      <File FileName="Assets/Scripts/SelectedCounterVisual.cs" Line="22" Column="5" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
 </Properties>
