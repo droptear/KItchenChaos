@@ -2,48 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClearCounter : MonoBehaviour, IKitchenObjectParent
+public class ClearCounter : BaseCounter
 {
+    //[SerializeField] private KitchenObjectSO _kitchenObjectSO;
 
-    [SerializeField] private Transform _pointToSpawn;
-    [SerializeField] private KitchenObjectSO _kitchenObjectSO;
-
-    private KitchenObject _kitchenObject;
-
-    public void Interact(Player player)
+     public override void Interact(Player player)
     {
-        if (_kitchenObject == null)
+        if (!HasKitchenObject())
         {
-            Transform kitchenObjectTransform = Instantiate(_kitchenObjectSO.prefab, _pointToSpawn);
-            kitchenObjectTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(KitchenObjectParentToSet: this);
+            if(player.HasKitchenObject())
+            {
+                player.GetKitchenObject().SetKitchenObjectParent(this);
+            } else
+            {
+                Debug.Log("Player doesn't carring anything.");
+            }
         } else
         {
-            _kitchenObject.SetKitchenObjectParent(KitchenObjectParentToSet: player);
+            if (player.HasKitchenObject())
+            {
+                Debug.Log("Player already carring something.");
+            } else
+            {
+                GetKitchenObject().SetKitchenObjectParent(player);
+            }
         }
-    }
-
-    public Transform GetKitchenObjectFollowTransform()
-    {
-        return _pointToSpawn;
-    }
-
-    public void SetKitchenObject(KitchenObject kitchenObjectToSet)
-    {
-        _kitchenObject = kitchenObjectToSet;
-    }
-
-    public KitchenObject GetKitchenObject()
-    {
-        return _kitchenObject;
-    }
-
-    public void ClearKitchenObject()
-    {
-        _kitchenObject = null;
-    }
-
-    public bool HasKitchenObject()
-    {
-        return (_kitchenObject != null);
     }
 }

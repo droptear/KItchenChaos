@@ -14,9 +14,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Intearct",
+                    "name": "Interact",
                     "type": "Button",
                     "id": "afa1c3f1-27ce-4291-ae06-7fd1ec279a55",
+                    "expectedControlType": "Button",
+                    "processors": "NormalizeVector2",
+                    "interactions": ""
+                },
+                {
+                    "name": "InteractAlternate",
+                    "type": "Button",
+                    "id": "651eebcf-5502-4b5c-8064-4bddba14c130",
                     "expectedControlType": "Button",
                     "processors": "NormalizeVector2",
                     "interactions": ""
@@ -206,7 +214,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Intearct",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -217,7 +225,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Intearct",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -228,7 +236,51 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Intearct",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45faef48-37ac-469e-bf36-b4b7fa1e6dd3",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e36f01d4-c74f-4c88-9ca6-1f43af849d35",
+                    "path": "<Keyboard>/leftMeta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2affaba9-451f-456c-8a18-3381c04cfdab",
+                    "path": "<Keyboard>/numpad0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df11664f-b494-4a50-a718-48a18bb3bbd6",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

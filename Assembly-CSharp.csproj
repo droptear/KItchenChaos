@@ -48,6 +48,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ClearCounter.cs" />
+     <Compile Include="Assets\Scripts\BaseCounter.cs" />
+     <Compile Include="Assets\Scripts\ContainerCounter.cs" />
+     <Compile Include="Assets\Scripts\ContainerCounterVisual.cs" />
      <Compile Include="Assets\Scripts\SelectedCounterVisual.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
@@ -56,6 +59,7 @@
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
      <Compile Include="Assets\Scripts\KitchenObject.cs" />
+     <Compile Include="Assets\Scripts\CuttingCounter.cs" />
      <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

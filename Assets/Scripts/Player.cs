@@ -10,7 +10,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs : EventArgs
     {
-        public ClearCounter selectedCounter;
+        public BaseCounter selectedCounter;
     }
 
     [SerializeField] private float _moveSpeed = 7.0f;
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     private bool _canMove;
     private bool _isWalking;
 
-    private ClearCounter _selectedCounter;
+    private BaseCounter _selectedCounter;
     private KitchenObject _kitchenObject;
 
     private void Awake()
@@ -48,13 +48,23 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     private void Start()
     {
         _gameInput.OnInteractAction += GameInput_OnInteractAction;
+        _gameInput.OnInteractActionAlternate += GameInput_OnInteractActionAlternate;
     }
+
 
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
         if (_selectedCounter != null)
         {
             _selectedCounter.Interact(player: this);
+        }
+    }
+
+    private void GameInput_OnInteractActionAlternate(object sender, EventArgs e)
+    {
+        if (_selectedCounter != null)
+        {
+            _selectedCounter.InteractAlternate(player: this);
         }
     }
 
@@ -136,11 +146,11 @@ public class Player : MonoBehaviour, IKitchenObjectParent
                             maxDistance: _interactDistance,
                             layerMask: _countersLayerMask))
         {
-            if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
+            if (raycastHit.transform.TryGetComponent(out BaseCounter baseCounter))
             {
-                if (clearCounter != _selectedCounter)
+                if (baseCounter != _selectedCounter)
                 {
-                    SetSelectedCounter(counterToSelect: clearCounter);
+                    SetSelectedCounter(counterToSelect: baseCounter);
                 }
             }
             else
@@ -169,7 +179,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
         return _isWalking;
     }
 
-    private void SetSelectedCounter(ClearCounter counterToSelect)
+    private void SetSelectedCounter(BaseCounter counterToSelect)
     {
         _selectedCounter = counterToSelect;
 
