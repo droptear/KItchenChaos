@@ -12,7 +12,7 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
         Debug.LogError("BaseClass.Interact();");
     }
 
-    public virtual void InteractAlternate(Player player)
+    public virtual void InteractAlternate()
     {
         Debug.LogError("BaseClass.InteractAlternate();");
     }
