@@ -1,24 +1,28 @@
 ﻿<Properties>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="60" Column="10" />
-      <File FileName="Assets/Scripts/PlayerAnimator.cs" />
-      <File FileName="Assets/Scripts/GameInput.cs" Line="9" Column="56" />
-      <File FileName="Assets/Scripts/ClearCounter.cs" Line="7" Column="4" />
-      <File FileName="Assets/Scripts/SelectedCounterVisual.cs" />
-      <File FileName="Assets/Scripts/KItchenObjectSO.cs" />
-      <File FileName="Assets/Scripts/KitchenObject.cs" Line="44" Column="29" />
-      <File FileName="Assets/Scripts/IKitchenObjectParent.cs" />
-      <File FileName="Assets/Scripts/ContainerCounter.cs" Line="22" Column="56" />
-      <File FileName="Assets/Scripts/BaseCounter.cs" Line="44" Column="2" />
-      <File FileName="Assets/Scripts/ContainerCounterVisual.cs" />
-      <File FileName="Assets/Scripts/CuttingCounter.cs" Line="38" Column="35" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WasteBin.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerAnimator.cs" />
+      <File FileName="Assets/Scripts/GameInput.cs" />
+      <File FileName="Assets/Scripts/ClearCounter.cs" />
+      <File FileName="Assets/Scripts/SelectedCounterVisual.cs" />
+      <File FileName="Assets/Scripts/KItchenObjectSO.cs" />
+      <File FileName="Assets/Scripts/KitchenObject.cs" />
+      <File FileName="Assets/Scripts/IKitchenObjectParent.cs" />
+      <File FileName="Assets/Scripts/ContainerCounter.cs" />
+      <File FileName="Assets/Scripts/BaseCounter.cs" />
+      <File FileName="Assets/Scripts/ContainerCounterVisual.cs" Line="26" Column="6" />
+      <File FileName="Assets/Scripts/CuttingRecipeSO.cs" />
+      <File FileName="Assets/Scripts/WasteBin.cs" Line="29" Column="2" />
+      <File FileName="Assets/Scripts/CuttingCounter.cs" Line="65" Column="31" />
+      <File FileName="Assets/Scripts/ProgressBarUI.cs" Line="29" Column="26" />
+      <File FileName="Assets/Scripts/CuttingCounterVisual.cs" Line="23" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
