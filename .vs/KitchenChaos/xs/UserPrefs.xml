@@ -1,9 +1,8 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StoveCounter.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" />
@@ -12,22 +11,25 @@
       <File FileName="Assets/Scripts/ClearCounter.cs" />
       <File FileName="Assets/Scripts/SelectedCounterVisual.cs" />
       <File FileName="Assets/Scripts/KItchenObjectSO.cs" />
-      <File FileName="Assets/Scripts/KitchenObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/KitchenObject.cs" />
       <File FileName="Assets/Scripts/IKitchenObjectParent.cs" />
       <File FileName="Assets/Scripts/ContainerCounter.cs" />
-      <File FileName="Assets/Scripts/BaseCounter.cs" Line="17" Column="18" />
+      <File FileName="Assets/Scripts/BaseCounter.cs" />
       <File FileName="Assets/Scripts/ContainerCounterVisual.cs" />
-      <File FileName="Assets/Scripts/CuttingRecipeSO.cs" Line="8" Column="7" />
+      <File FileName="Assets/Scripts/CuttingRecipeSO.cs" />
       <File FileName="Assets/Scripts/WasteBin.cs" />
-      <File FileName="Assets/Scripts/CuttingCounter.cs" Line="8" Column="90" />
-      <File FileName="Assets/Scripts/ProgressBarUI.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/CuttingCounter.cs" />
+      <File FileName="Assets/Scripts/ProgressBarUI.cs" />
       <File FileName="Assets/Scripts/CuttingCounterVisual.cs" />
       <File FileName="Assets/Scripts/LookAtCamera.cs" />
       <File FileName="Assets/Scripts/FryingRecipeSO.cs" />
-      <File FileName="Assets/Scripts/StoveCounter.cs" Line="120" Column="14" />
+      <File FileName="Assets/Scripts/StoveCounter.cs" Line="91" Column="17" />
       <File FileName="Assets/Scripts/StoveCounterVisual.cs" Line="20" Column="49" />
-      <File FileName="Assets/Scripts/IHasProgress.cs" Line="11" Column="33" />
+      <File FileName="Assets/Scripts/IHasProgress.cs" />
+      <File FileName="Assets/Scripts/PlateCounter.cs" Line="14" Column="41" />
+      <File FileName="Assets/Scripts/PlatesCounterVisual.cs" Line="38" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

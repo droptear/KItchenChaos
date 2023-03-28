@@ -57,18 +57,22 @@
      <Compile Include="Assets\Scripts\CuttingRecipeSO.cs" />
      <Compile Include="Assets\Scripts\CuttingCounterVisual.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\IHasProgress.cs" />
      <Compile Include="Assets\Scripts\CuttingCounter.cs" />
      <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
      <Compile Include="Assets\Scripts\IKitchenObjectParent.cs" />
+     <Compile Include="Assets\Scripts\PlatesCounter.cs" />
      <Compile Include="Assets\Scripts\StoveCounter.cs" />
+     <Compile Include="Assets\Scripts\PlatesCounterVisual.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
      <Compile Include="Assets\Scripts\ProgressBarUI.cs" />
+     <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\LookAtCamera.cs" />
+     <Compile Include="Assets\Scripts\StoveCounterVisual.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
      <Compile Include="Assets\Scripts\KitchenObject.cs" />
-     <Compile Include="Assets\Scripts\StoveCounterVisual.cs" />
-     <Compile Include="Assets\Scripts\IHasProgress.cs" />
+     <Compile Include="Assets\Scripts\PlateCompleteVisual.cs" />
      <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
