@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\CuttingCounter.cs" />
      <Compile Include="Assets\Scripts\KitchenObjectSO.cs" />
      <Compile Include="Assets\Scripts\IKitchenObjectParent.cs" />
+     <Compile Include="Assets\Scripts\PlateCompleteVisual.cs" />
      <Compile Include="Assets\Scripts\PlatesCounter.cs" />
      <Compile Include="Assets\Scripts\StoveCounter.cs" />
      <Compile Include="Assets\Scripts\PlatesCounterVisual.cs" />
@@ -72,7 +73,8 @@
      <Compile Include="Assets\Scripts\StoveCounterVisual.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
      <Compile Include="Assets\Scripts\KitchenObject.cs" />
-     <Compile Include="Assets\Scripts\PlateCompleteVisual.cs" />
+     <Compile Include="Assets\Scripts\PlateIconsUI.cs" />
+     <Compile Include="Assets\Scripts\PlateSIngleIconUI.cs" />
      <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -682,6 +684,9 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Users/admin/Desktop/Portfolio/Unity/KitchenChaos/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/admin/Desktop/Portfolio/Unity/KitchenChaos/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

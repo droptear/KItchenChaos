@@ -13,7 +13,7 @@ public class WasteBin : BaseCounter
             _objectToWaste = player.GetKitchenObject();
             
             _objectToWaste.SetKitchenObjectParent(KitchenObjectParentToSet: this);
-            
+
             StartCoroutine(SelfDestruct(timeToDestruct: 0.8f));
         }
         else
