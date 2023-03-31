@@ -10,9 +10,13 @@ public class WasteBin : BaseCounter
     {
         if (player.HasKitchenObject())
         {
+            //if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject platekitchenObject))
+            //{
+            //    player.GetKitchenObject().GetComponent<PlateIconsUI>().RemoveVisuals();
+            //}
+
             _objectToWaste = player.GetKitchenObject();
-            
-            _objectToWaste.SetKitchenObjectParent(KitchenObjectParentToSet: this);
+            _objectToWaste.SetKitchenObjectParent(this);
 
             StartCoroutine(SelfDestruct(timeToDestruct: 0.8f));
         }
