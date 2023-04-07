@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ScriptableObjects\FryingRecipeSO.cs" />
+     <Compile Include="Assets\Scripts\DeliveryManager.cs" />
      <Compile Include="Assets\Scripts\DeliveryCounter.cs" />
      <Compile Include="Assets\Scripts\Counters\ClearCounter.cs" />
      <Compile Include="Assets\Scripts\Counters\BaseCounter.cs" />
@@ -68,17 +69,16 @@
      <Compile Include="Assets\Scripts\PlatesCounterVisual.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimator.cs" />
      <Compile Include="Assets\Scripts\ProgressBarUI.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\MenuSO.cs" />
      <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
      <Compile Include="Assets\Scripts\PlateIconsUI.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\RecipeSO.cs" />
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\StoveCounterVisual.cs" />
      <Compile Include="Assets\Scripts\PlateSingleIconUI.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
      <Compile Include="Assets\Scripts\KitchenObject.cs" />
-     <Compile Include="Assets\Scripts\DeliveryManager.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\RecipeSO.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\MenuSO.cs" />
      <None Include="Assets\_Assets\KitchenChaos_COMPLETE_PROJECT.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
