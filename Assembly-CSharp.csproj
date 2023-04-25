@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Counters\BaseCounter.cs" />
      <Compile Include="Assets\Scripts\Counters\ContainerCounter.cs" />
      <Compile Include="Assets\Scripts\ContainerCounterVisual.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\AudioClipRefsSO.cs" />
      <Compile Include="Assets\Scripts\SelectedCounterVisual.cs" />
      <Compile Include="Assets\Scripts\WasteBin.cs" />
      <Compile Include="Assets\Scripts\UI\DeliveryManagerUI.cs" />
@@ -75,12 +76,15 @@
      <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
      <Compile Include="Assets\Scripts\UI\PlateIconsUI.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\RecipeSO.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\StoveCounterVisual.cs" />
      <Compile Include="Assets\Scripts\UI\PlateSingleIconUI.cs" />
      <Compile Include="Assets\Scripts\GameInput.cs" />
      <Compile Include="Assets\Scripts\KitchenObject.cs" />
+     <Compile Include="Assets\Scripts\StoveCounterSound.cs" />
+     <Compile Include="Assets\Scripts\PlayerSounds.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

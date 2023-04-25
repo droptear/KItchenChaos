@@ -1,22 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WasteBin : BaseCounter
 {
+    public static event EventHandler OnAnyObjectTrashed;
+
     private KitchenObject _objectToWaste;
 
     public override void Interact(Player player)
     {
         if (player.HasKitchenObject())
         {
-            //if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject platekitchenObject))
-            //{
-            //    player.GetKitchenObject().GetComponent<PlateIconsUI>().RemoveVisuals();
-            //}
-
             _objectToWaste = player.GetKitchenObject();
             _objectToWaste.SetKitchenObjectParent(this);
+
+            OnAnyObjectTrashed?.Invoke(this, EventArgs.Empty);
 
             StartCoroutine(SelfDestruct(timeToDestruct: 0.8f));
         }
