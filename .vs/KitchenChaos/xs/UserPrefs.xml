@@ -1,36 +1,39 @@
 ﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerSounds.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" />
+      <File FileName="Assets/Scripts/Player.cs" Line="203" Column="62" />
       <File FileName="Assets/Scripts/PlayerAnimator.cs" />
       <File FileName="Assets/Scripts/GameInput.cs" />
       <File FileName="Assets/Scripts/SelectedCounterVisual.cs" />
       <File FileName="Assets/Scripts/KitchenObject.cs" />
       <File FileName="Assets/Scripts/IKitchenObjectParent.cs" />
-      <File FileName="Assets/Scripts/ContainerCounterVisual.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/WasteBin.cs" />
-      <File FileName="Assets/Scripts/CuttingCounterVisual.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ContainerCounterVisual.cs" />
+      <File FileName="Assets/Scripts/WasteBin.cs" Line="19" Column="63" />
+      <File FileName="Assets/Scripts/CuttingCounterVisual.cs" />
       <File FileName="Assets/Scripts/LookAtCamera.cs" />
       <File FileName="Assets/Scripts/StoveCounterVisual.cs" />
       <File FileName="Assets/Scripts/IHasProgress.cs" />
       <File FileName="Assets/Scripts/PlatesCounterVisual.cs" />
       <File FileName="Assets/Scripts/PlateKitchenObject.cs" />
       <File FileName="Assets/Scripts/PlateCompleteVisual.cs" />
-      <File FileName="Assets/Scripts/DeliveryCounter.cs" Line="12" Column="6" />
-      <File FileName="Assets/Scripts/ScriptableObjects/MenuSO.cs" Line="5" Column="38" />
-      <File FileName="Assets/Scripts/DeliveryManager.cs" Line="90" Column="55" />
-      <File FileName="Assets/Scripts/ScriptableObjects/RecipeSO.cs" Line="5" Column="37" />
+      <File FileName="Assets/Scripts/DeliveryCounter.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/MenuSO.cs" />
+      <File FileName="Assets/Scripts/DeliveryManager.cs" />
+      <File FileName="Assets/Scripts/ScriptableObjects/RecipeSO.cs" />
       <File FileName="Assets/Scripts/UI/DeliveryManagerSingleUI.cs" />
       <File FileName="Assets/Scripts/Counters/StoveCounter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="20" Column="76" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="66" Column="1" />
       <File FileName="Assets/Scripts/ScriptableObjects/AudioClipRefsSO.cs" Line="16" Column="32" />
-      <File FileName="Assets/Scripts/Counters/CuttingCounter.cs" Line="70" Column="53" />
+      <File FileName="Assets/Scripts/Counters/CuttingCounter.cs" />
+      <File FileName="Assets/Scripts/Counters/BaseCounter.cs" Line="1" Column="14" />
+      <File FileName="Assets/Scripts/StoveCounterSound.cs" Line="30" Column="33" />
+      <File FileName="Assets/Scripts/PlayerSounds.cs" Line="25" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>
