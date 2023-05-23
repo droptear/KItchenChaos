@@ -12,11 +12,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52829
+50209
 Successfully changed project path to: /Users/admin/Desktop/Portfolio/Unity/KitchenChaos
 /Users/admin/Desktop/Portfolio/Unity/KitchenChaos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 96.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -27,112 +27,104 @@ Vendor:   ATI Technologies Inc.
 Version:  3.3 ATI-10.4.14
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shading_language_include GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -1450642432
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -594951168
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56209
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56239
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001681 seconds.
+Registered in 0.001618 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.977 seconds
+- Completed reload, in  4.753 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001557 seconds.
+Registered in 0.001707 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.350 seconds
+- Completed reload, in  2.406 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
+System memory in use before: 168.6 MB.
 System memory in use after: 168.8 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2888.
-Total: 5.449325 ms (FindLiveObjects: 0.612553 ms CreateObjectMapping: 0.176208 ms MarkObjects: 4.362215 ms  DeleteObjects: 0.295801 ms)
+Total: 5.483890 ms (FindLiveObjects: 0.520782 ms CreateObjectMapping: 0.141324 ms MarkObjects: 4.647279 ms  DeleteObjects: 0.172244 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c0a80f4c7cde1bfee60655bff4df7b') in 1.232886 seconds
-  Import took 1.239626 seconds .
+  path: Packages/com.unity.textmeshpro
+  artifactKey: Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro using Guid(cabaa672b0e3ee91fa7b6da4daab7970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee99eb6ef4f7edb6dcc1a58185fd583b') in 0.007104 seconds
+  Import took 0.014187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 986.733318 seconds.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a657bc87743926225e0ff8a3152c464c') in 0.006076 seconds
-  Import took 0.013116 seconds .
+  Time since last request: 31.792247 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993fc02711b3bbe6d995d41cc54c5cd') in 1.672915 seconds
+  Import took 1.680379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.966202 seconds.
+  path: Assets/Scripts/GameStartCountdownUI.cs
+  artifactKey: Guid(f6b27c624e70c4793bff6dd542f8d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameStartCountdownUI.cs using Guid(f6b27c624e70c4793bff6dd542f8d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b642300858404cefb597b068d34cd7bf') in 2.500315 seconds
+  Import took 2.507173 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001902 seconds.
+Registered in 0.001773 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.856 seconds
+- Completed reload, in  2.962 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.8 MB.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.5 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2891.
-Total: 4.587335 ms (FindLiveObjects: 0.499654 ms CreateObjectMapping: 0.141128 ms MarkObjects: 3.765540 ms  DeleteObjects: 0.178503 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.684170 seconds.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68366925a46f0c98d8c56473aa56229e') in 0.009794 seconds
-  Import took 0.016323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.810544 seconds.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68366925a46f0c98d8c56473aa56229e') in 0.004607 seconds
-  Import took 0.011201 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 4.970766 ms (FindLiveObjects: 0.510380 ms CreateObjectMapping: 0.140691 ms MarkObjects: 4.214352 ms  DeleteObjects: 0.102870 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001589 seconds.
+Registered in 0.001887 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -142,54 +134,118 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.580 seconds
+- Completed reload, in  3.174 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 172.0 MB.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.6 MB.
+System memory in use after: 179.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2894.
-Total: 6.173683 ms (FindLiveObjects: 0.482562 ms CreateObjectMapping: 0.124771 ms MarkObjects: 5.361199 ms  DeleteObjects: 0.202583 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 4.523970 ms (FindLiveObjects: 0.497114 ms CreateObjectMapping: 0.129110 ms MarkObjects: 3.791387 ms  DeleteObjects: 0.104160 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 607.718573 seconds.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a76272d88a74a0a2bda0463b12a313') in 0.012118 seconds
-  Import took 0.019872 seconds .
+  Time since last request: 1218.071177 seconds.
+  path: Assets/Scripts/GameStartCountdownUI.cs
+  artifactKey: Guid(f6b27c624e70c4793bff6dd542f8d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameStartCountdownUI.cs using Guid(f6b27c624e70c4793bff6dd542f8d5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4870e8fa83a2d8d69ffcc9cf076cff') in 0.010834 seconds
+  Import took 0.055502 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001610 seconds.
+Registered in 0.001571 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.451 seconds
+- Completed reload, in  3.040 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.0 MB.
-System memory in use after: 172.2 MB.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.8 MB.
+System memory in use after: 180.0 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2897.
-Total: 5.647175 ms (FindLiveObjects: 0.497054 ms CreateObjectMapping: 0.381855 ms MarkObjects: 4.645798 ms  DeleteObjects: 0.119905 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2940.
+Total: 4.794256 ms (FindLiveObjects: 0.507161 ms CreateObjectMapping: 0.137890 ms MarkObjects: 3.953378 ms  DeleteObjects: 0.192576 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 225.953106 seconds.
-  path: Assets/Scripts/KitchenGameManager.cs
-  artifactKey: Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KitchenGameManager.cs using Guid(c1cdb38ee8be643c28293e41061e2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391343886277b053bb7cd934f33859e4') in 0.010182 seconds
-  Import took 0.017320 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.578 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.0 MB.
+System memory in use after: 180.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2943.
+Total: 4.638290 ms (FindLiveObjects: 0.497724 ms CreateObjectMapping: 0.142685 ms MarkObjects: 3.881383 ms  DeleteObjects: 0.114252 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 180.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 4.214623 ms (FindLiveObjects: 0.472779 ms CreateObjectMapping: 0.121010 ms MarkObjects: 3.509009 ms  DeleteObjects: 0.109575 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.757 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 180.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2949.
+Total: 4.869927 ms (FindLiveObjects: 0.505967 ms CreateObjectMapping: 0.151108 ms MarkObjects: 4.096338 ms  DeleteObjects: 0.114780 ms)
 
